@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+  <fragment android:name="sdutta9_a5.cs442.com.Assignment5_todolist.NewItemFragment"
+    android:id="@+id/NewItemFragment"
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content" 
+  />
+  <fragment android:name="sdutta9_a5.cs442.com.Assignment5_todolist.ToDoListFragment"
+    android:id="@+id/TodoListFragment"
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content" 
+  />
+  <TableRow
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center"
+      android:gravity="center_horizontal">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Export"
+        android:id="@+id/btnExport"
+        android:onClick="ExportBtnClicked"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Import"
+        android:id="@+id/btnImport"
+        android:onClick="ImportBtnClicked"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        android:id="@+id/btnReset"
+        android:onClick="ResetBtnClicked"/>
+  </TableRow>
+</LinearLayout>
