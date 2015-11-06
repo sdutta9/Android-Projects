@@ -1,4 +1,4 @@
-First Android Master/Detail App
+Food Menu App
 ================================
 
-First universal master/detail application for Android tablets and phones that incorporates custom data. Documentation is located at www.mobileappdocs.com.
+This is a simple mobile app which follows Master detail application style for Android tablets and phones to incorporate a simple food menu item and items details for a hypothetical resturant. The data is being loded from a txt file by using string tokenizer class.
